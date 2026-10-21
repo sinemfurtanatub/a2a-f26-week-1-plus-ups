@@ -1,12 +1,7 @@
-# Playbook path picker
+# Playbook Path Picker (v2)
 
-Plus-up for the A2A Fall 2026 Week 1 presentation, slide 27 "Ask first: have you done this before, or is it new?". It replaces the tall flowchart image.
+Click-through. Screen 1 asks "Do you have past examples to learn from?" Yes opens Path B (mine your own work), No opens Path A (find the source of truth). Next reveals one step at a time: the path's 3 steps, then the 4 shared steps ending at The Gate. Back and Start over are always available.
 
-- `embed.html`: 708x400 (16:9) stage for a Notion embed. Never scrolls.
-- `index.html`: the same tool on a full page.
+Layout follows the Spring Week 1 flow diagram (claude_skill_playbook_builder_flow_v2.svg); colours are TUB: Path A tint, Path B Evergreen, shared steps white, The Gate Highlight.
 
-Answer "Do you have past examples to learn from?". Yes shows Path B (mine your own work), No shows Path A (find the source of truth). Both lead to Write the playbook, Build one perfect example by hand, Test, tune, repeat, The Gate. "Start over" clears the pick.
-
-All wording comes from slide 27 and the old flow image. No analytics, no accounts, no network calls. Fonts and logo are embedded. Season Mix is a trial font: confirm the license before publishing publicly.
-
-Status: local build only, not published. Rebuilt by `_src/build.py` in the plus-ups work folder.
+No analytics, no accounts, no network calls. Fonts and logo are embedded. Season Mix is a trial font: confirm the license before publishing publicly.
